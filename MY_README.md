@@ -24,7 +24,7 @@ This file documents the congestion control protocol experiments for CS Networkin
 
 ---
 
-## 🧪 How to Reproduce the Experiments
+## How to Reproduce the Experiments
 
 ### 1. Install Dependencies
 
@@ -40,7 +40,7 @@ mkdir -p /tmp/traces
 python2 -c "import sys; [sys.stdout.write('1500\n') for _ in range(4167)]" > /tmp/traces/50mbps.trace
 
 # 1 Mbps trace
-python2 -c "import sys; [sys.stdout.write('1500\n') for _ in range(83)]" > /tmp/traces/1mbps.trace
+python2 -c "import sys; [sys.stdout.write('1500\n') for _ in range(83)]" > /tmp/traces/1mbps.trace```
 
 ## Running the Tests
 
