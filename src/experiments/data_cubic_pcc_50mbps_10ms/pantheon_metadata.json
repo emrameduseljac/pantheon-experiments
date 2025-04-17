@@ -1,8 +1,7 @@
 {
     "cc_schemes": [
         "cubic",
-        "pcc",
-        "sprout"
+        "pcc"
     ],
     "downlink_trace": "50mbps.trace",
     "extra_mm_link_args": "--uplink-queue=droptail --downlink-queue=droptail --uplink-queue-args=packets=500 --downlink-queue-args=packets=500",
